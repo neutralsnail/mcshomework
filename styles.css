@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin:0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    background-color: #81a4cc;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dbe3ee;
+    text-shadow:3px 0 10px #cdd9e7;
+}
+.h1 {
+    padding: 20px;
+}
+.picture {
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+    background: url(https://static.vecteezy.com/system/resources/previews/004/338/532/original/modern-abstract-geometric-background-minimalist-diagonal-blue-and-orange-vector.jpg) 0 100%;
+    background-size: cover;
+}
+.links {
+    width: 100%;
+    background-color: #f17400;
+    display:flex;
+    justify-content:center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dbe3ee;
+    text-shadow:3px 0 10px #cdd9e7;
+
+}
+.linkz {
+    margin: 4px;
+    padding: 20px;
+    outline: none;
+    text-decoration: none;
+    color:#3f7cb2;
+}
+a:hover {
+    color: #cdd9e7;
+}
+.about {
+    width: 100%;
+    background-color: #cdd9e7;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #81a4cc;
+    text-shadow:3px 0 10px #a4b4d4;
+}
+.h2 {
+    padding: 20px 0 0 20px;
+}
+.p {
+    padding: 20px;
+}
+.link:link {
+    color:#3f7cb2
+}
+.footer {
+    width: 100%;
+    background-color: #81a4cc;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dbe3ee;
+    text-shadow:3px 0 10px #cdd9e7;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.footer-one {
+    width: 50%;
+    padding: 20px;
+}
+.footer-two {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end ;
+}
